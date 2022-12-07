@@ -1,0 +1,15 @@
+.DS_Store
+node_modules
+dist
+docs
+lib
+
+# Log files
+npm-debug.log*
+
+# Editor directories and files
+.vscode
+
+
+
+package-lock.json

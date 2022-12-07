@@ -1,0 +1,15 @@
+*.sh
+*.md
+*.scss
+*.woff
+*.ttf
+
+.eslintrc.js
+
+node_modules
+coverage
+lib
+test
+public
+build
+dist
