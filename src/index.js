@@ -1,6 +1,7 @@
 import Loading from '../packages/loading/index'
+import Badge from '../packages/badge/index'
 
-const components = [Loading]
+const components = [Loading, Badge]
 
 const install = function (Vue) {
   if (install.installed) return
@@ -17,4 +18,5 @@ if (typeof window.Vue !== 'undefined' && window.Vue) {
 export default {
   install,
   Loading,
+  Badge,
 }
