@@ -8,8 +8,8 @@ module.exports = {
     ecmaVersion: 6,
     sourceType: 'module',
     ecmaFeatures: {
-      jsx: true
-    }
+      jsx: true,
+    },
   },
   extends: ['plugin:vue/essential', 'eslint:recommended', 'prettier'],
   plugins: ['vue', 'prettier'],
@@ -17,5 +17,12 @@ module.exports = {
     'prettier/prettier': 'error',
     'arrow-body-style': 'off',
     'prefer-arrow-callback': 'off',
+    'vue/max-attributes-per-line': [
+      'error',
+      {
+        singleline: 1,
+        multiline: 1,
+      },
+    ],
   },
 }

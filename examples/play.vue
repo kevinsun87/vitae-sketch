@@ -1,5 +1,10 @@
 <template>
-  <vit-badge></vit-badge>
+  <vit-badge
+    :value="100"
+    type="primary"
+  >
+    回复
+  </vit-badge>
 </template>
 
 <script>
